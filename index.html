@@ -212,10 +212,133 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level1 unnumbered">
 <h1 class="unnumbered">Introduction</h1>
-<p>This site contains the searches performed on the various databases.</p>
-<p>It also contains a listing of literature found.</p>
+<p>This site contains the searches performed on the various databases. A description for these databases in included in <a href="s2_a_databases_searched.html#tbl-databases" class="quarto-xref">Table&nbsp;<span>2.1</span></a>.</p>
+<p>Initially 6 queries have been run against the 6 databases resulting in 84 hits as shown in <a href="#tbl-result-set" class="quarto-xref">Table&nbsp;<span>1</span></a> in <a href="s2_d_literature_found.html">appendix D</a>. After testing the initially formulated 6 queries have een reduced to 4 queries. The first two queries search for “business process management” or BPM in the title. The last two queries search for “business process engineering” or business process reengineering” in the title.</p>
+<ol type="1">
+<li>TI=(“business process management” or BPM) AND (AB=(compliance) OR KP=(compliance))</li>
+<li>TI=(“business process management” or BPM) AND (AB=(“regulat*”) OR KP=(“regulat*”))</li>
+<li>TI=(“business process *engineering”) AND (AB=(compliance) OR KP=(compliance))</li>
+<li>TI=(“business process *engineering”) AND (AB=(regulat*) OR KP=(regulat*))</li>
+</ol>
+<p>The initial list (<a href="s2_d_literature_found.html#tbl-database-searches" class="quarto-xref">Table&nbsp;<span>5.1</span></a>) contains a total of 84 records. An additional 6 records were found from other sources (<a href="s2_d_literature_found.html#tbl-other-sources" class="quarto-xref">Table&nbsp;<span>5.2</span></a>). The total is 90 records. This list includes preprints and conference papers. Filtering the journal articles results in a list of 25 records (<a href="s2_d_literature_found.html#tbl-review-abstracts" class="quarto-xref">Table&nbsp;<span>5.3</span></a>).</p>
+<p>In the case of Web of Science (WoS) the four queries have been taken together using the “OR” operator. This final query yields 42 results when using the the Vlerick WoS subscription<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. The search strings have be adapted to suit the specific requirements of the databases.</p>
+<p>Across the 6 datasoures 84 articles have been identified, and an additional 6 records have been added from different sources. The found records are listed in <a href="s2_d_literature_found.html">Appendix D</a>: <a href="s2_d_literature_found.html#tbl-database-searches" class="quarto-xref">Table&nbsp;<span>5.1</span></a> and <a href="s2_d_literature_found.html#tbl-other-sources" class="quarto-xref">Table&nbsp;<span>5.2</span></a>.</p>
+<p>The process to get to the final 23 papers included in this literature study is visualized in the flowchart in <a href="s2_c_literature_selection.html">Appendix C</a>.</p>
+<p>In summary:</p>
+<div id="tbl-result-set" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-result-set-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Result set
+</figcaption>
+<div aria-describedby="tbl-result-set-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
+<thead>
+<tr class="header">
+<th>Database</th>
+<th style="text-align: right;">Found</th>
+<th style="text-align: right;">Additional</th>
+<th style="text-align: right;">Subtotal</th>
+<th style="text-align: right;">Excluded</th>
+<th style="text-align: right;">Result set</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>WoS</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">-19</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td>ACM</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>SD</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">-7</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>SSRN</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td>arXiv</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+4</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">-4</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>dblp</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">-37</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td>zenodo</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>additional</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;">——</td>
+<td style="text-align: right;">———-</td>
+<td style="text-align: right;">——–</td>
+<td style="text-align: right;">——–</td>
+<td style="text-align: right;">———-</td>
+</tr>
+<tr class="even">
+<td>total</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">+12</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">-69</td>
+<td style="text-align: right;">21</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 
 
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Web of Science: Core Collection<br>
+Subscription : Vlerick Business School<br>
+Editions : A&amp;HCI , ESCI , CPCI-SSH , CPCI-S , SCI-EXPANDED , SSCI<br>
+Date range: 2014-2024<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->

@@ -4,7 +4,17 @@
     "href": "index.html",
     "title": "Searches",
     "section": "",
-    "text": "Introduction\nThis site contains the searches performed on the various databases.\nIt also contains a listing of literature found.",
+    "text": "Introduction\nThis site contains the searches performed on the various databases. A description for these databases in included in Table 2.1.\nInitially 6 queries have been run against the 6 databases resulting in 84 hits as shown in Table 1 in appendix D. After testing the initially formulated 6 queries have een reduced to 4 queries. The first two queries search for “business process management” or BPM in the title. The last two queries search for “business process engineering” or business process reengineering” in the title.\nThe initial list (Table 5.1) contains a total of 84 records. An additional 6 records were found from other sources (Table 5.2). The total is 90 records. This list includes preprints and conference papers. Filtering the journal articles results in a list of 25 records (Table 5.3).\nIn the case of Web of Science (WoS) the four queries have been taken together using the “OR” operator. This final query yields 42 results when using the the Vlerick WoS subscription1. The search strings have be adapted to suit the specific requirements of the databases.\nAcross the 6 datasoures 84 articles have been identified, and an additional 6 records have been added from different sources. The found records are listed in Appendix D: Table 5.1 and Table 5.2.\nThe process to get to the final 23 papers included in this literature study is visualized in the flowchart in Appendix C.\nIn summary:",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Searches",
+    "section": "",
+    "text": "Web of Science: Core Collection\nSubscription : Vlerick Business School\nEditions : A&HCI , ESCI , CPCI-SSH , CPCI-S , SCI-EXPANDED , SSCI\nDate range: 2014-2024↩︎",
     "crumbs": [
       "Introduction"
     ]
