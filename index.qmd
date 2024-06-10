@@ -1,5 +1,25 @@
-# Preface {.unnumbered}
+# Introduction {.unnumbered}
 
-This is a Quarto book.
+This site contains the searches performed on the various databases. A description for these databases in included in @tbl-databases.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Initially 6 queries have been run against the 6 databases resulting in 84 hits as shown in @tbl-result-set in [appendix D](#appendix-d).
+After testing the initially formulated 6 queries have een reduced to 4 queries.
+The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
+
+1. TI=("business process management" or BPM) AND (AB=(compliance) OR KP=(compliance))
+2. TI=("business process management" or BPM) AND (AB=("regulat\*") OR KP=("regulat\*"))
+3. TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))
+4. TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat\*))
+
+The initial list (@tbl-database-searches) contains a total of 84 records. An additional 6 records were found from other sources (@tbl-other-sources). The total is 90 records. This list includes preprints and conference papers. Filtering the journal articles results in a list of 25 records (@tbl-review-abstracts).
+
+In the case of Web of Science (WoS) the four queries have been taken together using the "OR" operator. This final query yields 42 results when using the the Vlerick WoS subscription[^1]. The search strings have be adapted to suit the specific requirements of the databases.
+
+Across the 6 datasoures 84 articles have been identified, and an additional 6 records have been added from different sources. The found records are listed in [Appendix D](#appendix-d): @tbl-database-searches and @tbl-other-sources.
+
+The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in [Appendix C](#appendix-c).
+
+[^1]: Web of Science: Core Collection  
+Subscription  : Vlerick Business School  
+Editions  : A&HCI , ESCI , CPCI-SSH , CPCI-S , SCI-EXPANDED , SSCI  
+Date range: 2014-2024 

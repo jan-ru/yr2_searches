@@ -1,0 +1,47 @@
+---
+format:
+  pdf:
+    mermaid:
+      theme: neutral
+    include-in-header: 
+      text:
+        \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
+        \rohead{Draft}
+        \lofoot{}
+---
+
+<!--
+Mermaid diagram showing the replicating the CADIMA SLR diagram.
+-->
+
+```{mermaid}
+%%| label: fig-slr-flowchart
+%%| fig-cap: "Flowchart depicting literature selection."
+flowchart TB
+    A("115 records identified 
+    through 
+    database searching")
+    B("6 additional records 
+    identified  
+    through other sources")
+    subgraph .
+      C("121 records after duplicate removal")  
+      D("121 records screened at title level")
+      E("23 records screened at abstract level")
+      F("21 full-text articles  assessed for eligibility")
+      G("9 full-text articles included")
+    end
+    H("98 records excluded")
+    I("2 records excluded")
+    J("12 records excluded") 
+  
+  A --> C
+  B --> C
+  C --> D
+  D --> H
+  D --> E
+  E --> F
+  E --> I
+  F --> G
+  F --> J
+```

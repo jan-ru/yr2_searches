@@ -1,0 +1,20 @@
+format:
+  pdf:
+    papersize: a4
+    documentclass: scrreprt
+    toc: true
+    lof: false
+    lot: true
+    latex-output-dir: output
+    mermaid:
+      theme: neutral
+    cite-method: citeproc
+    link-citation: true
+    link-bibliography: true
+
+    include-in-header: 
+      text:
+        \usepackage{imakeidx, bibentry, multicol}
+  html: 
+    mermaid:
+      theme: neutral

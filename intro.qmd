@@ -1,5 +1,0 @@
-# Introduction
-
-This site contains the searches performed on the various databases.
-
-It also contains a listing of literature found.

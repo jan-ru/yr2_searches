@@ -1,0 +1,16 @@
+<!--
+Table of the initial selection of platforms for the systematic literature review (add reason per platform).
+-->
+
+
+|Platform	      |Type	          |Focus	                    |Coverage	       |Access    |
+|---------------|---------------|---------------------------|----------------|----------|
+|Web of Science	|Citation index	|Wide range of disciplines (including hard sciences, social sciences, and the humanities)	| Over 18,000 academic journals, books, patents, and other scholarly publications	| Subscription-based |
+|ScienceDirect	|Academic literature platform	|Science, technology, medicine, and social science |Over 3,500 peer-reviewed journals	|Subscription-based and open access |
+|ACM            |Digital Library                |Computing and information technology              |Full-text articles from ACM journals and conference proceedings|Subscription-based and open access?|
+|SSRN	          |Preprints	    |Social sciences, economics, and business	|Early-stage social science, economics, and business research papers |Open access |
+|arXiv	        |Preprints	    |Hard sciences and quantitative sciences	|Early-stage research papers in a wide range of disciplines	    |Open access |                
+|DBLP	          |Bibliography database |Computer science |Scholarly publications in computer science |Open access |
+|Zenodo	        |Dataset repository |Data from various disciplines |Data from research projects, surveys, and other data collection efforts	|Open access |
+
+: Databases consulted {#tbl-databases}

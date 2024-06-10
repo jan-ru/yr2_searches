@@ -1,13 +1,37 @@
 project:
   type: book
+  output-dir: output
+
+metadata-files:
+  - ./metadata/_format.yml
+  - ./metadata/_website.yml
 
 book:
   title: "Searches"
-  author: "Norah Jones"
-  date: "6/10/2024"
+  subtitle: ""
+  abstract: ""
+  downloads: [pdf]
+  search: true
+  author: 
+  - name: "Jan-Ru Muller"
+    orcid: 0000-0003-1689-0557
+    email: janru.muller@edu.vlerick.com
+    affiliations:
+    - name: Amsterdam University of Applied Sciences
+      address: Fraijlemaborg 133
+      city: Amsterdam
+      country: The Netherlands
+      postal-code: 1102 CV
+    - name: Vlerick Business School
+      address: Reep 1
+      city: Ghent
+      country: Belgium
+      postal-code: 9000
+  date: today
+  date-format: "DD/MM/YYYY"
+
   chapters:
     - index.qmd
-    - intro.qmd
     - summary.qmd
     - s2_a_databases_searched.qmd
     - s2_b_basket_of_11.qmd
