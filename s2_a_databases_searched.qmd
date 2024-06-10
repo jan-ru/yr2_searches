@@ -1,0 +1,17 @@
+# Databases Searched {#appendix-a}
+
+{{< include tables/s2_tbl_platforms.qmd >}}
+
+|Platform    |Operator       |Note                                        |
+|------------|---------------|--------------------------------------------|
+|Scopus      | [Elsevier]    | not available via Vlerick                  |
+|OpenAlex[^6]| [OpenAlex]    |                                            |
+|OpenAIRE    | [OpenAIRE]    | Mentioned in connection with Zenodo and also EU Research Programs |
+|CEUR Workshop Proceedings|  |                                            | 
+: Other resources - not consulted
+
+[Elsevier]: www-scopus-com
+[OpenAlex]: https://openalex.org
+[OpenAIRE]: https://explore.openaire.eu/
+
+[^6]: For a description of OpenAlex see @priemOpenAlexFullyopenIndex2022a.

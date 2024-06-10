@@ -1,0 +1,73 @@
+---
+execute:
+  echo: false
+jupyter: python3
+---
+# Literature Identified {#appendix-d}
+
+The tables below show records found. Seq (sequence) shows a table row number. Source shows the data source where the record was found. Type holds the type of publication (conference proceedings, journal article, preprint, etc.) Title is the title of the publication. EC (exclusion criterion) shows the reason a record is excluded. If a record is excluded for multiple reasons, only one reason is shown. QA (quality assessment) shows the QA-score the record obtainted (0-4).
+
+\fontsize{9}{10}\selectfont
+
+```{python}
+#| label: tbl-database-searches
+#| tbl-cap: "Identified through database searching"
+
+from IPython.display import Markdown
+from tabulate import tabulate
+from lib.my_excel_lib import get_tables
+from lib.my_custom_lib import xls2md
+
+tables = get_tables('tables/slr_logbook.xlsx')
+
+Markdown(tabulate(
+  xls2md(tables['database_search']),
+  headers=['Seq','Source','Type','Title','EC'],
+  missingval="",
+  maxcolwidths=[2, 8, 8, 76, 2],
+  showindex=False,
+  colalign=()))
+```
+
+
+```{python}
+#| label: tbl-other-sources
+#| tbl-cap: "Identified through other sources"
+#| eval: true
+
+Markdown(tabulate(
+  xls2md(tables['other_sources']),
+  headers=['Seq','Source','Type','Title','EC'],
+  missingval="-",
+  maxcolwidths=[2, 8, 8, 76, 2],
+  showindex=False,
+  colalign=()))
+```
+
+```{python}
+#| label: tbl-review-abstracts
+#| tbl-cap: "Records screened at abstract level"
+
+Markdown(tabulate(
+  xls2md(tables['review_abstracts']),
+  headers=['Seq','Source','Type','Title','QA'],
+  missingval=".",
+  maxcolwidths=[2, 8, 8, 76, 2],
+  showindex=False,
+  colalign=()))
+```
+
+```{python}
+#| label: tbl-full-text-included
+#| tbl-cap: "Records included in the study"
+
+Markdown(tabulate(
+  xls2md(tables['included_articles']),
+  headers=['Seq','Source','Type','Title','QA','Year'],
+  missingval=".",
+  maxcolwidths=[2, 8, 8, 76, 2, 4],
+  showindex=False,
+  colalign=()))
+```
+
+\fontsize{11}{12}\selectfont

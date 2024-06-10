@@ -1,0 +1,45 @@
+# List of eligible journals {#appendix-b}
+
+The columns: level and impact factor (IF) are taken from the Vlerick Strategic Journal List (the List), effective as of January 2020. Empty means the journal is not on the List.
+
+| Journal Title                                                              |Level| IF  |
+|----------------------------------------------------------------------------|:---:|:---:|
+| MIS Quarterly ([MISQ][MISQ-ref])                                           | A*  |7,268|
+| Journal of Management Information Systems ([JMIS][JMIS-ref])               | A*  |2,744|
+| Information Systems Journal ([ISJ][ISJ-ref])                               | A   |4,267|
+| Journal of the Association for Information Systems ([JAIS][JAI-ref])       | A   |2,839|
+| Communications of the Association for Information Systems ([CAIS][CAI-ref])| A   |  ?  |
+| Information Systems Research ([ISR][ISR-ref])                              | A*  |2,301|
+| Journal of Information Technology ([JIT][JIT-ref])                         | A   |4,435|
+| European Journal of Information Systems ([EJIS][EJIS-ref])                 | A   |2,819|
+| Decision Support Systems ([DSS][DSS-ref])                                  |  A  |2,819|
+| Information & Management ([IAM][IAM-ref])                                  |  A  |3,890|
+| Information and Organization ([IAO][IAO-ref])                              |     |     |
+
+: Basket of 11 {#tbl-journals11}
+
+[MISQ-ref]: https://misq.umn.edu/
+[JMIS-ref]: https://jmis-web.org/
+[ISJ-ref]: https://onlinelibrary.wiley.com/journal/13652575
+[JAI-ref]: https://aisel.aisnet.org/jais/
+[CAI-ref]: https://aisel.aisnet.org/cais/
+[ISR-ref]: https://pubsonline.informs.org/journal/isre
+[JIT-ref]: https://journals.sagepub.com/home/jina
+[EJIS-ref]: https://www.tandfonline.com/toc/tjis20/current
+[DSS-ref]: https://www-sciencedirect-com/journal/decision-support-systems
+[IAM-ref]: https://www.sciencedirect.com/journal/information-and-management
+[IAO-ref]: https://www-sciencedirect-com/journal/information-and-organization
+
+Next to the basket of 11 there are other journals that are of interest. BISE is of interest because it is an european (IS) journal (as is EJIS). BPMJ and IJDG may be of interest given the subject matter their titles refer to.
+
+| Journal Title                                                            |Level| IF  |
+|--------------------------------------------------------------------------|:---:|:---:|
+| Business Process Management Journal ([BPMJ][BPMJ-ref])                   |     |     |
+| Business & Information Systems Engineering ([BISE][BISE-ref])            |     |     |
+| Journal of Disclosure and Governance ([IJDG][IJDG-ref])                  |     |     |
+
+: Other journals of interest {#tbl-journalsc}
+
+[BPMJ-ref]: https://www.emeraldgrouppublishing.com/journal/bpmj
+[BISE-ref]: http://www.bise-journal.com/
+[IJDG-ref]: https://www.palgrave.com/gp/journal/41310

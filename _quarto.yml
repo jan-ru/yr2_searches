@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Searches"
+  author: "Norah Jones"
+  date: "6/10/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - s2_a_databases_searched.qmd
+    - s2_b_basket_of_11.qmd
+    - s2_c_literature_selection.qmd
+    - s2_d_literature_found.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
